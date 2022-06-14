@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+
+}
+ul.navegacion li{
+    padding-right: 10px;
+    list-style-type: none;
+}
+.logo{
+    align-items: center;
+    padding-top: 10px;
+}
+.placer{
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 260px;
+    left: 780px;
+    width: 345px;
+    padding-left: 30px;
+
+}
+.descuento{
+    position: absolute;
+    z-index: 1;
+    bottom: 210px;
+    left: 880px;
+
+}
+.comederos{
+    background-color: orange;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 150px;
+    left: 890px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.patita{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: #3C2313;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    
+}
+.centro{
+    display: flex;
+    justify-content: space-around;
+}
+.precio{
+    color: orange;
+    position: relative;
+    left: 100px;
+}
+.descripcion{
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+.churrasco{
+    background-color: #FBFAF6;
+}
+.comedero{
+    background-color: #FBFAF6;
+}
+.huesito{
+    background-color: #FBFAF6;
+}
+main{
+    padding-bottom: 80px;
+
+}
+.redondeo{
+    display: flex;
+    width: 320px;
+    background-color: #3C2313;
+    color: white;
+    border-radius: 8px;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 40%;
+}
+footer h3{
+    left:600px ;
+}
+footer a{
+    text-decoration: none;
+    color: #FBFAF6;
+}
+h2 a{
+    color: black;
+    text-decoration: none;
+}
+h3 a{
+    color: black;
+    text-decoration: none;
+
+}p{color:white}
